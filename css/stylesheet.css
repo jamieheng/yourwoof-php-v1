@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap'); 
+@font-face { 
+   font-family:"Raleway-semibold"; 
+   src:url(../assets/fonts/Raleway-SemiBold.ttf) 
+} 
+ 
+*{ 
+   font-family: 'Raleway-semibold'; 
+   margin:0; padding:0; 
+   box-sizing: border-box; 
+   outline: none; border:none; 
+   text-decoration: none; 
+} 
+ 
+.container{ 
+   min-height: 100vh; 
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+   padding:20px; 
+   padding-bottom: 60px; 
+ 
+} 
+ 
+.container .content{ 
+   text-align: center; 
+} 
+ 
+.container .content h3{ 
+   font-size: 30px; 
+   color:#fff; 
+} 
+ 
+.container .content h3 span{ 
+   background: #BF94E4; 
+   color:#fff; 
+   border-radius: 5px; 
+   padding:0 15px; 
+} 
+ 
+.container .content h1{ 
+   font-size: 50px; 
+   color:#333; 
+} 
+ 
+.container .content h1 span{ 
+   color:#BF94E4; 
+} 
+ 
+.container .content p{ 
+   font-size: 25px; 
+   margin-bottom: 20px; 
+} 
+ 
+.container .content .btn{ 
+   display: inline-block; 
+   padding:10px 30px; 
+   font-size: 20px; 
+   background: #333; 
+   color:#fff; 
+   margin:0 5px; 
+   text-transform: capitalize; 
+} 
+ 
+.container .content .btn:hover{ 
+   background: #BF94E4; 
+} 
+ 
+.form-container{ 
+   min-height: 100vh; 
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+   padding:20px; 
+   padding-bottom: 60px; 
+   /* background: #eee; */ 
+ 
+   background: linear-gradient( 
+        rgba(35, 43, 56, 0), 
+        rgba(55, 58, 64, 0.582) 
+    ), url(../assets/corgis.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+} 
+ 
+.form-container form{ 
+   padding:20px; 
+   border-radius: 5px; 
+   box-shadow: 0 5px 10px rgba(0,0,0,.1); 
+   background: linear-gradient( 
+        rgba(241, 149, 240, 0.264), 
+        rgba(228, 234, 246, 0.582) 
+    ); 
+   text-align: center; 
+   width: 500px; 
+} 
+ 
+.form-container form h3{ 
+   font-size: 30px; 
+   text-transform: uppercase; 
+   margin-bottom: 10px; 
+   color:#fff; 
+} 
+ 
+.form-container form input, 
+.form-container form select{ 
+   width: 100%; 
+   padding:10px 15px; 
+   font-size: 17px; 
+   margin:8px 0; 
+   background: rgba(238, 238, 238, 0.302); 
+   border-radius: 5px; 
+} 
+ 
+.form-container form select option{ 
+   background: #fff; 
+} 
+ 
+.form-container form .form-btn{ 
+   background: #c584ee; 
+   color:#fff; 
+   text-transform: capitalize; 
+   font-size: 20px; 
+   cursor: pointer; 
+} 
+ 
+.form-container form .form-btn:hover{ 
+   background: #7d3ab8; 
+   color:#333; 
+} 
+ 
+.form-container form p{ 
+   margin-top: 10px; 
+   font-size: 20px; 
+   color:#fff; 
+} 
+ 
+.form-container form p a{ 
+   color:#7d3ab8; 
+} 
+ 
+.form-container form .error-msg{ 
+   margin:10px 0; 
+   display: block; 
+   background: #b70505; 
+   color:#fff; 
+   border-radius: 5px; 
+   font-size: 20px; 
+   padding:10px; 
+} 
+ 
+ 
+/* new css */ 
+ 
+/* Import Google font - Poppins */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); 
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: "Poppins", sans-serif; 
+} 
+ 
+.wrapper .pass-field { 
+  height: 65px; 
+  width: 100%; 
+  position: relative; 
+} 
+.pass-field input { 
+   width: 100%; 
+   padding:10px 15px; 
+   font-size: 17px; 
+   margin:8px 0; 
+   background: rgba(238, 238, 238, 0.302); 
+   border-radius: 5px; 
+} 
+.pass-field input:focus { 
+    
+      width: 100%; 
+      padding:10px 15px; 
+      font-size: 17px; 
+      margin:8px 0; 
+      background: rgba(238, 238, 238, 0.302); 
+      border-radius: 5px; 
+} 
+.pass-field i { 
+  right: 18px; 
+  top: 50%; 
+  font-size: 1.2rem; 
+  color: #999; 
+  cursor: pointer; 
+  position: absolute; 
+  transform: translateY(-50%); 
+} 
+.wrapper .content { 
+  margin: 20px 0 10px; 
+} 
+.content p { 
+  color: #333; 
+  font-size: 0.7rem; 
+} 
+.content .requirement-list { 
+  margin-top: 20px; 
+} 
+.requirement-list li { 
+  font-size: 0.7rem; 
+  list-style: none; 
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 15px; 
+} 
+.requirement-list li i {
+
+width: 20px; 
+  color: #aaa; 
+  font-size: 0.6rem; 
+} 
+.requirement-list li.valid i { 
+  font-size: 1.2rem; 
+  color: #4285F4; 
+} 
+.requirement-list li span { 
+  margin-left: 12px; 
+  color: #333; 
+} 
+.requirement-list li.valid span { 
+  color: #999; 
+} 
+ 
+@media screen and (max-width: 500px) { 
+  body, .wrapper { 
+    padding: 15px; 
+  } 
+  .wrapper .pass-field { 
+    height: 55px; 
+  } 
+  .pass-field input, .content p  { 
+    font-size: 0.15rem; 
+  } 
+  .pass-field i, .requirement-list li { 
+    font-size: 0.1rem; 
+  } 
+  .requirement-list li span { 
+    margin-left: 7px; 
+  } 
+}
